@@ -1,0 +1,6 @@
+Column Name,Data Type,Description
+year,Integer,The tax year (e.g. 2006 = 2006/07 tax year)
+median_annual_earnings_gbp,Float,"Median annual gross earnings for full-time employees in Great Britain, in GBP (£). Source: ONS ASHE survey."
+total_tax_gap_bn,Float,"HMRC estimate of the total UK tax gap for the year, in billions of GBP (£bn). The tax gap is the difference between tax owed and tax collected."
+income_yoy_pct,Float,Year-on-year percentage change in median annual earnings. Calculated as: ((current year − previous year) / previous year) × 100. NaN for the first year.
+taxgap_yoy_pct,Float,Year-on-year percentage change in the total tax gap. Calculated as: ((current year − previous year) / previous year) × 100. NaN for the first year.
